@@ -1,0 +1,173 @@
+.footer__white-bar .flex-container {
+  justify-content: space-between;
+  padding: 67px 0 70px 0;
+}
+
+.footer__menu-link a {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #8993ad;
+}
+
+.footer__nav:hover {
+  text-decoration: underline;
+  color: #fc557c;
+}
+
+.footer__contacts {
+  padding-left: 80px;
+}
+
+.footer__contacts a {
+  font-size: 25px;
+  line-height: 59px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.icon-phone {
+  font-family: Roboto;
+
+}
+
+.icon-phone:hover {
+  color: #fc557c;
+}
+
+.icon-mail-alt {
+  font-family: Roboto;
+}
+
+.icon-mail-alt:hover {
+  color: #fc557c;
+}
+
+.icon-phone::before {
+  background: linear-gradient(13.0deg, #ff8f5a 26%, #ff2f96 73%);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-right: .7em;
+  font-size: 90%;
+}
+
+.icon-mail-alt::before {
+  background: linear-gradient(13.0deg, #ff8f5a 26%, #ff2f96 73%);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-right: .7em;
+  font-size: 90%;
+}
+
+
+.footer__btn {
+  margin-right: 22px;
+  margin-top: 8px;
+  width: 248px;
+  height: 45px;
+  border: 1.0px solid #ff5e79;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff6375;
+}
+
+.footer__btn:hover {
+  border: 1.0px solid #ffffff;
+  color: #ffffff;
+  background: #ff5e79;
+}
+
+.social {
+  display: flex;
+  padding-top: 23px;
+}
+
+.social a {
+  padding-right: 50px;
+}
+
+.social a:hover {
+  border-bottom: #ff5e79;
+}
+
+.social li {
+  width: 50px;
+  height: 50px;
+}
+
+
+.vk {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('../img/css_sprites.png');
+  background-repeat: no-repeat;
+  background-position: -10px 5px;
+}
+
+.vk:hover {
+  opacity: 0.5;
+}
+
+.facebook {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('../img/css_sprites.png');
+  background-repeat: no-repeat;
+  background-position: -97px -2px;
+}
+
+.facebook:hover {
+  opacity: 0.5;
+}
+
+.twitter {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('../img/css_sprites.png');
+  background-repeat: no-repeat;
+  background-position: -0px -38px;
+}
+
+.twitter:hover {
+  opacity: 0.5;
+}
+
+.instagram {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('../img/css_sprites.png');
+  background-repeat: no-repeat;
+  background-position: -47px 3px;
+}
+
+.instagram:hover {
+  opacity: 0.5;
+}
+
+
+
+/*BLACK_BAR*/
+
+.footer__black-bar {
+  height: 81px;
+  width: 100%;
+  height: 81px;
+  background-color: #31293c;
+}
+
+.footer__black-bar .flex-container {
+  justify-content: center;
+}
+
+.footer__copyright {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 78px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  color: #ffffff;
+}
